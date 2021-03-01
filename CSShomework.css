@@ -1,0 +1,177 @@
+/* Ignore following classes */
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EEEEEE;
+}
+
+#intro{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+}
+
+.insideborder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para{
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: medium;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+
+
+.flag{
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+}
+
+.horiz{
+    display: flex;
+    flex-direction: row;
+}
+
+.twovert{
+    height: 50%;
+}
+
+.threevert{
+    height: 33.3%;
+}
+
+.threehoriz{
+    width: 33.3%
+}
+
+.skinvert{
+    width: 30%;
+}
+
+.fatvert{
+    width: 305;
+}
+
+.skinny{
+    height: 17.5%;
+}
+
+.greeceskinny{
+    height: 11.11%;
+}
+
+.fat{
+    height: 30%;
+}
+
+.fatty{
+    height:25%;
+    transform: translateY(150%);
+}
+
+.fattty{
+    height:25%;
+    width:305px;
+    position: relative;
+    transform: rotate(90deg) translateY(-10%) translateX(12%);
+}
+
+.circle{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    transform: translateY(-190%);
+}
+
+.insidebox{
+    height: 56%;
+    width: 6.2%;
+    transform: translateX(190%) translateY(-268%);
+}
+
+.insidevertbox{
+    height: 49%;
+    width: 6.2%;
+    transform: rotate(90deg) translateX(-1960%) translateY(-40%);
+}
+
+.mex{
+    position: center;
+    height: 175px;
+    width: 175px;
+    top: 50%;
+    left: 50%;
+    transform:translate(0%,20%);
+}
+
+
+
+
+
+/* Colors/ Feel free to add your own! */
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+.pantone{
+    background-color: #00A3E0;
+}
+
+.purple{
+    background-color: purple;
+}
+
+
+
